@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+  margin: 0.1rem;
+  background-color:azure
+}
+.display-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.search-box{
+display: inline-block;
+}
+.input-box{
+  width: 400px;
+  height: 40px;
+}
+.repo-btn{
+  background-color: rgb(87, 87, 196);
+  height:40px;
+  color:white;
+  width:50px;
+}
+.error{
+  color:red
+}
